@@ -1,9 +1,11 @@
 * Main Processors
 
-  | Name        | Package      | RAM | Flash | Rated Speed | ~Price @ Qty | amforth support |
+  | Name        | Package      | RAM | Flash | Rated Speed | ~Price @ Qty | amforth support | 
   |-------------+--------------+-----+-------+-------------+--------------+-----------------|
   | atmega3250P | 100-pin TQFP | 2k  | 32k   | 20 MHz      | 4.83280 @ 25 | No              |
 
+  - atmega3250P
+    http://www.atmel.com/dyn/products/product_card.asp?part_id=4061
 
-  I think we could port this pretty easily over to amforth, as it
-  seems like it's just a big atmega328.
+    I think we could port this pretty easily over to amforth, as it
+    seems like it's just a big atmega328.
