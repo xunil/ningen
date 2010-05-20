@@ -1,0 +1,65 @@
+Device,Flash (Kbytes),EEPROM (Bytes),SRAM (Bytes),Max I/O Pins,F.max (MHz),Vcc (V),10-bit A/D Channels,Analog Comparator,16-bit Timers,8-bit Timer,Brown Out Detector,Ext Interrupts,Hardware Multiplier,Interrupts,ISP,On Chip Oscillator,Package Options,PWM Channels,RTC,Self Program Memory,SPI,TWI,UART,Watchdog,CAN,picoPower,Green Package, Packages
+AT90PWM1,8,512,512,19,16,2.7-5.5,11,Yes,1,1,Yes,4,Yes,26,Yes,Yes,--,7,Yes,Yes,1,--,No,Yes,--,--,SOIC 24,SOIC 24
+AT90PWM216,16,512,1024,19,16,2.7-5.5,11,Yes,1,1,Yes,4,Yes,29,Yes,Yes,--,10,Yes,Yes,1,--,Yes,Yes,--,--,SOIC 24,SOIC 24
+AT90PWM2B,8,512,512,19,16,2.7-5.5,11,Yes,1,1,Yes,4,Yes,29,Yes,Yes,--,7,Yes,Yes,1,--,Yes,Yes,--,--,SOIC 24 SOIC 24,
+AT90PWM316,16,512,1024,27,16,2.7-5.5,11,Yes,1,1,Yes,4,Yes,29,Yes,Yes,--,10,Yes,Yes,1,--,Yes,Yes,--,--,VQFN (Punched) 32,VQFN (Punched) 32 SOIC 32
+AT90PWM3B,8,512,512,27,16,2.7-5.5,11,Yes,1,1,Yes,4,Yes,29,Yes,Yes,--,10,Yes,Yes,1,--,Yes,Yes,--,--,VQFN (Punched) 32,VQFN (Punched) 32 SOIC 32
+AT90PWM81,8,512,256,27,16,2.7-5.5,11,Yes,1,1,Yes,4,Yes,29,Yes,Yes,--,10,Yes,Yes,1,--,--,Yes,--,--,QFN 32,QFN 32 SO 20
+AT90USB1286,128,4096,8192,48,16,2.7-5.5,8,Yes,2,2,Yes,8,Yes,34,Yes,Yes,--,6+2,Yes,Yes,1,Yes,1,Yes,--,--,TQFP 64,TQFP 64 VQFN (Sawn) 64
+AT90USB1287,128,4096,8192,48,16,2.7-5.5,8,Yes,2,2,Yes,8,Yes,34,Yes,Yes,--,6+2,Yes,Yes,1,Yes,1,Yes,--,--,TQFP 64,TQFP 64 VQFN (Sawn) 64
+AT90USB162,16,512,512,22,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,TQFP 32,TQFP 32 VQFN (Sawn) 32
+AT90USB646,64,2048,4096,48,16,2.7-5.5,8,Yes,2,2,Yes,8,Yes,34,Yes,Yes,--,6+2,Yes,Yes,1,Yes,1,Yes,--,--,TQFP 64,TQFP 64 VQFN (Sawn) 64
+AT90USB647,64,2048,4096,48,16,2.7-5.5,8,Yes,2,2,Yes,8,Yes,34,Yes,Yes,--,6+2,Yes,Yes,1,Yes,1,Yes,--,--,TQFP 64,TQFP 64 VQFN (Sawn) 64
+AT90USB82,8,512,512,22,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,TQFP 32,TQFP 32 VQFN (Sawn) 32
+ATmega1280,128,4096,8192,86,16,1.8-5.5,16,Yes,4,2,Yes,32,Yes,57,Yes,Yes,--,16,Yes,Yes,1+USART,Yes,4,Yes,--,--,CBGA 100,TQFP 100 CBGA 100
+ATmega1281,128,4096,8192,54,16,1.8-5.5,8,Yes,4,2,Yes,17,Yes,48,Yes,Yes,--,9,Yes,Yes,1+USART,Yes,2,Yes,--,--,TQFP 64, MLF (VQFN) 64 TQFP 64
+ATmega1284,128,4096,16K,32,20,1.8 - 5.5,Yes,Yes,2,2,Yes,3,Yes,35,Yes,Yes,--,6,Yes,Yes,Yes,Yes,2,Yes,--,--,TQFP 44,TQFP 44 MLF (VQFN) 44 PDIP 40
+ATmega1284P,128,4096,16K,32,20,1.8 - 5.5,Yes,Yes,2,2,Yes,3,Yes,35,Yes,Yes,--,6,Yes,Yes,Yes,Yes,2,Yes,--,--,TQFP 44,TQFP 44 MLF (VQFN) 44 PDIP 40
+ATmega128A,128,4096,4096,53,16,2.7-5.5,8,Yes,2,2,Yes,8,Yes,34,Yes,Yes,--,8,Yes,Yes,1,Yes,2,Yes,--,--,TQFP 64,TQFP 64 MLF (VQFN) 64
+ATmega162,16,512,1024,35,16,1.8-5.5,--,Yes,2,2,Yes,3,Yes,28,Yes,Yes,--,6,Yes,Yes,1,--,2,Yes,--,--,TQFP 44,TQFP 44 MLF (VQFN) 44 PDIP 40
+ATmega164A,16,512,1024,32,20,1.8-5.5,8,Yes,1,2,Yes,32,Yes,31,Yes,Yes,--,6,Yes,Yes,1+USART,Yes,2,Yes,--,--,QFN 44,QFN 44 VFBGA 49 TQFP 44 MLF (VQFN) 44 PDIP 40
+ATmega164PA,16,512,1024,32,20,1.8-5.5,8,Yes,1,2,Yes,32,Yes,31,Yes,Yes,--,6,Yes,Yes,1+USART,Yes,2,Yes,--,--,QFN 44,QFN 44 VFBGA 49 TQFP 44 MLF (VQFN) 44 PDIP 40
+ATmega165P,16,--,1024,54,16,1.8-5.5,8,Yes,1,2,Yes,17,Yes,23,Yes,Yes,--,4,Yes,Yes,1+USI,USI,1,Yes,--,--,TQFP 64,TQFP 64 MLF (VQFN) 64
+ATmega165PA,16,--,1024,54,16,1.8-5.5,8,Yes,1,2,Yes,17,Yes,23,Yes,Yes,--,4,Yes,Yes,1+USI,USI,1,Yes,--,--,TQFP 64,TQFP 64 MLF (VQFN) 64
+ATmega168A,16,512,1024,23,20,1.8-5.5,6/8,Yes,1,2,Yes,26,Yes,26,Yes,Yes,--,6,Yes,Yes,1+USART,Yes,1,Yes,--,--,TQFP 32,TQFP 32 MLF (VQFN) 32 PDIP 28
+ATmega168PA,16,512,1024,23,20,1.8-5.5,8,Yes,1,2,Yes,26,Yes,26,Yes,Yes,--,6,Yes,Yes,1+USART,Yes,1,Yes,--,--,TQFP 32,TQFP 32 MLF (VQFN) 32 PDIP 28
+ATmega169PA,16,512,1024,54,16,1.8-5.5,8,Yes,1,2,Yes,17,Yes,23,Yes,Yes,--,4,Yes,Yes,1+USI,USI,1,Yes,--,--,QFN 64,QFN 64 TQFP 64 MLF (VQFN) 64
+ATmega16A,16,512,1024,32,16,2.7-5.5,8,Yes,1,2,Yes,3,Yes,20,Yes,Yes,--,4,Yes,Yes,1,Yes,1,Yes,--,--,TQFP 44,TQFP 44 MLF (VQFN) 44 PDIP 40
+ATmega16M1,16,512,1024,27,16,2.7 - 5.5,11,Yes,1,1,Yes,--,--,31,Yes,Yes,--,--,--,--,1,--,1,Yes,Yes,--,TQFP 32,TQFP 32 MLF (VQFN) 32
+ATmega16U2,16,512,512,22,16,2.7 - 5.5,--,Yes,1,1,Yes,Yes,--,--,Yes,Yes,--,--,--,Yes,1,--,--,Yes,--,--,TQFP 32,TQFP 32 VQFN (Sawn) 32
+ATmega16U4,16,512,1536,26,16,2.7 - 5.5,12,Yes,2,2,Yes,Yes,--,43,Yes,Yes,--,4,--,Yes,Yes,Yes,Yes,Yes,--,--,TQFP 44,TQFP 44 VQFN (Sawn) 44
+ATmega2560,256,4096,8192,86,16,1.8-5.5,16,Yes,4,2,Yes,32,Yes,57,Yes,Yes,--,16,Yes,Yes,1+USART,Yes,4,Yes,--,--,CBGA 100,CBGA 100 TQFP 100
+ATmega2561,256,4096,8192,54,16,1.8-5.5,8,Yes,4,2,Yes,17,Yes,48,Yes,Yes,--,9,Yes,Yes,1+USART,Yes,2,Yes,--,--,TQFP 64,TQFP 64 MLF (VQFN) 64
+ATmega324A,32,1024,2048,32,20,1.8-5.5,8,Yes,1,2,Yes,32,Yes,31,Yes,Yes,--,6,Yes,Yes,1+USART,Yes,2,Yes,--,--,QFN 44,QFN 44 VFBGA 49 TQFP 44 MLF (VQFN) 44 PDIP 40
+ATmega324PA,32,1024,2048,32,20,1.8-5.5,8,Yes,1,2,Yes,32,Yes,31,Yes,Yes,--,6,Yes,Yes,1+USART,Yes,2,Yes,--,--,QFN 44,QFN 44 VFBGA 49 TQFP 44 MLF (VQFN) 44 PDIP 40
+ATmega325,32,1024,2048,54,16,1.8-5.5,8,Yes,1,2,Yes,17,Yes,23,Yes,Yes,--,4,Yes,Yes,1+USI,USI,1,Yes,--,--,TQFP 64,TQFP 64 MLF (VQFN) 64
+ATmega3250,32,1024,2048,69,16,1.8-5.5,8,Yes,1,2,Yes,17,Yes,32,Yes,Yes,--,4,Yes,Yes,1+USI,USI,1,Yes,--,--,TQFP 100,TQFP 100
+ATmega3250P,32,1024,2048,69,20,1.8-5.5,8,Yes,1,2,Yes,17,Yes,32,Yes,Yes,--,4,Yes,Yes,1+USI,USI,1,Yes,--,--,TQFP 100,TQFP 100
+ATmega325P,32,1024,2048,54,20,1.8-5.5,8,Yes,1,2,Yes,17,Yes,23,Yes,Yes,--,4,Yes,Yes,1+USI,USI,1,Yes,--,--,TQFP 64,TQFP 64 MLF (VQFN) 64
+ATmega328,32,1024,2048,23,20,1.8-5.5,8,Yes,1,2,Yes,26,Yes,26,Yes,Yes,--,6,Yes,Yes,1+USART,Yes,1,Yes,--,--,TQFP 32,TQFP 32 MLF (VQFN) 32 PDIP 28
+ATmega328P,32,1024,2048,23,20,1.8-5.5,8,Yes,1,2,Yes,26,Yes,26,Yes,Yes,--,6,Yes,Yes,1+USART,Yes,1,Yes,--,--,TQFP 32,TQFP 32 MLF (VQFN) 32 PDIP 28
+ATmega329,32,1024,2048,54,16,1.8-5.5,8,Yes,1,2,Yes,17,Yes,25,Yes,Yes,--,4,Yes,Yes,1+USI,USI,1,Yes,--,--,TQFP 64,TQFP 64 MLF (VQFN) 64
+ATmega3290,32,1024,2048,69,16,1.8-5.5,8,Yes,1,2,Yes,32,Yes,25,Yes,Yes,--,4,Yes,Yes,1+USI,USI,1,Yes,--,--,TQFP 100,TQFP 100
+ATmega3290P,32,1024,2048,69,20,1.8-5.5,8,Yes,1,2,Yes,32,Yes,25,Yes,Yes,--,4,Yes,Yes,1+USI,USI,1,Yes,--,--,TQFP 100,TQFP 100
+ATmega329P,32,1024,2048,54,20,1.8-5.5,8,Yes,1,2,Yes,17,Yes,25,Yes,Yes,--,4,Yes,Yes,1+USI,USI,1,Yes,--,--,TQFP 64,TQFP 64 MLF (VQFN) 64
+ATmega32A,32,1024,2048,32,16,2.7-5.5,8,Yes,1,2,Yes,3,Yes,19,Yes,Yes,--,4,Yes,Yes,1,Yes,1,Yes,--,--,TQFP 44,TQFP 44 MLF (VQFN) 44 PDIP 40
+ATmega32M1,32,1024,2048,27,16,2.7 - 5.5,11,Yes,1,1,Yes,--,--,31,Yes,Yes,--,--,--,--,1,--,1,--,Yes,--,TQFP 32,TQFP 32 MLF (VQFN) 32
+ATmega32U2,32,1024,1024,22,16,2.7 - 5.5,--,Yes,1,1,Yes,Yes,--,29,Yes,Yes,--,--,--,Yes,1,--,--,Yes,--,--,TQFP 32,TQFP 32 VQFN (Sawn) 32
+ATmega32U4,16,1024,3072,26,16,2.7 - 5.5,12,Yes,2,2,Yes,Yes,--,43,Yes,Yes,--,4,--,Yes,Yes,Yes,Yes,Yes,--,--,TQFP 44,TQFP 44 VQFN (Sawn) 44
+ATmega48A,4,256,512,23,20,1.8-5.5,6/8,Yes,1,2,Yes,26,Yes,26,Yes,Yes,--,6,Yes,Yes,1+USART,Yes,1,Yes,--,--,TQFP 32,TQFP 32 MLF (VQFN) 28 MLF (VQFN) 32 PDIP 28
+ATmega48PA,4,256,512,23,20,1.8-5.5,8,Yes,1,2,Yes,26,Yes,26,Yes,Yes,--,6,Yes,Yes,1+USART,Yes,1,Yes,--,--,TQFP 32,TQFP 32 MLF (VQFN) 28 MLF (VQFN) 32 PDIP 28
+ATmega640,64,4096,8192,86,16,1.8-5.5,16,Yes,4,2,Yes,32,Yes,57,Yes,Yes,--,16,Yes,Yes,1+USART,Yes,4,Yes,--,--,CBGA 100,TQFP 100 CBGA 100 
+ATmega644A,64,2048,4096,32,20,1.8-5.5,8,Yes,1,2,Yes,32,Yes,31,Yes,Yes,--,6,Yes,Yes,1+USART,Yes,2,Yes,--,--,QFN 44,QFN 44 VFBGA 49 TQFP 44 MLF (VQFN) 44 PDIP 40
+ATmega644PA,64,2048,4096,32,20,1.8-5.5,8,Yes,1,2,Yes,32,Yes,31,Yes,Yes,--,6,Yes,Yes,1+USART,Yes,2,Yes,--,--,QFN 44,QFN 44 VFBGA 49 TQFP 44 MLF (VQFN) 44 PDIP 40
+ATmega645,64,2048,4096,54,16,1.8-5.5,8,Yes,1,2,Yes,17,Yes,23,Yes,Yes,--,4,Yes,Yes,1+USI,USI,1,Yes,--,--,TQFP 64,TQFP 64 MLF (VQFN) 64
+ATmega6450,64,2048,4096,69,16,1.8-5.5,8,Yes,1,2,Yes,17,Yes,32,Yes,Yes,--,4,Yes,Yes,1+USI,USI,1,Yes,--,--,TQFP 100,TQFP 100
+ATmega649,64,2048,4096,54,16,1.8-5.5,8,Yes,1,2,Yes,17,Yes,25,Yes,Yes,--,4,Yes,Yes,1+USI,USI,1,Yes,--,--,TQFP 64,TQFP 64 MLF (VQFN) 64
+ATmega6490,64,2048,4096,69,16,1.8-5.5,8,Yes,1,2,Yes,32,Yes,25,Yes,Yes,--,4,Yes,Yes,1+USI,USI,1,Yes,--,--,TQFP 100,TQFP 100
+ATmega64A,64,2048,4096,54,16,2.7-5.5,8,Yes,2,2,Yes,8,Yes,34,Yes,Yes,--,8,Yes,Yes,1,Yes,2,Yes,--,--,TQFP 64,TQFP 64 MLF (VQFN) 64
+ATmega64M1,64,2048,4096,27,16,2.7 - 5.5,11,Yes,1,1,Yes,--,--,31,Yes,Yes,--,--,--,--,1,--,1,--,Yes,--,TQFP 32,TQFP 32 MLF (VQFN) 32
+ATmega8515,8,512,512,35,16,2.7-5.5,--,--,1,1,Yes,3,Yes,16,Yes,Yes,PDIP40,TQFP44,3,--,Yes,1,--,1,Yes,--,--,PLCC 44 TQFP 44,TQFP 44 MLF (VQFN) 44 PDIP 40
+ATmega8535,8,512,512,32,16,2.7-5.5,8,Yes,1,2,Yes,3,Yes,20,Yes,Yes,--,4,--,Yes,1,Yes,1,Yes,--,--,PLCC 44 TQFP 44,TQFP 44 MLF (VQFN) 44 PDIP 40
+ATmega88A,8,512,1024,23,20,1.8-5.5,6/8,Yes,1,2,Yes,26,Yes,26,Yes,Yes,--,6,Yes,Yes,1+USART,Yes,1,Yes,--,--,TQFP 32,TQFP 32 MLF (VQFN) 32 PDIP 28
+ATmega88PA,8,512,1024,23,20,1.8-5.5,8,Yes,1,2,Yes,26,Yes,26,Yes,Yes,--,6,Yes,Yes,1+USART,Yes,1,Yes,--,--,TQFP 32,TQFP 32 MLF (VQFN) 28 MLF (VQFN) 32 PDIP 28
+ATmega8A,8,512,1024,23,16,2.7-5.5,6/8,Yes,1,2,Yes,2,Yes,18,Yes,Yes,--,3,Yes,Yes,1,Yes,1,Yes,--,--,TQFP 32,TQFP 32 MLF (VQFN) 32 PDIP 28
+ATmega8U2,8,512,512,22,16,2.7 - 5.5,--,Yes,1,1,Yes,Yes,--,29,Yes,Yes,--,--,--,Yes,1,--,--,Yes,--,--,TQFP 32,TQFP 32 VQFN (Sawn) 32
