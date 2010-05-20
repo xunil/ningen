@@ -29,6 +29,10 @@ for i in params:
             cols.append((n, i[1]))
             values.append(headers[n][1])
 
+if not cols:
+    print 'You must specify some columns to show, or search against.'
+    sys.exit(1)
+
 print "\t".join(values)
 
 for i in r:
