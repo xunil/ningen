@@ -1,11 +1,21 @@
 * Main Processors
 
-  | Name        | Package      | RAM | Flash | Rated Speed | ~Price @ Qty | amforth support | 
+  | Name        | Package      | RAM | Flash | Rated Speed | ~Price @ Qty | amforth support |
   |-------------+--------------+-----+-------+-------------+--------------+-----------------|
   | atmega3250P | 100-pin TQFP | 2k  | 32k   | 20 MHz      | 4.83280 @ 25 | No              |
+  | atmega325P  | 64-pin TQFP  | 2k  | 32k   | 20 MHz      | 4.38 @ 25    | No              |
+  | atmega645P  | 64-pin TQFP  | 4k  | 64k   | 20 MHz      | 4.38 @ 25    | No              |
+  |-------------+--------------+-----+-------+-------------+--------------+-----------------|
 
   - atmega3250P
     http://www.atmel.com/dyn/products/product_card.asp?part_id=4061
 
     I think we could port this pretty easily over to amforth, as it
     seems like it's just a big atmega328.
+
+* Output Amplifiers/Buffers
+
+  | Name      | Package | Price | -3db Bandwidth | Slew Rate | Supply                     | Output Current |
+  |-----------+---------+-------+----------------+-----------+----------------------------+----------------|
+  | LM7372IMA | 16-SOIC | $5.26 | 220 MHz        | 3000 V/us | 9V - 36V, + / - 4.5V - 18V | 260 mA         |
+  |-----------+---------+-------+----------------+-----------+----------------------------+----------------|
