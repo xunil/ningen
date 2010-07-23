@@ -13,8 +13,8 @@ Header      Chip        Function
 11          PC6         LCD Enable Flag
 12          PC7         --
 13          ---         --
-14          ---         --
-15          ---         --
+14          PE0         RXD
+15          PE1         TXD
 16          PD1         Encoder momentary SPST (INT0)
 17          PF0         ADC0
 18          PF1         ADC1
@@ -24,8 +24,8 @@ Header      Chip        Function
 22          PF5         ADC5
 23          PF6         ADC6        
 24          PF7         ADC7
-25          PE0         RXD           
-26          PE1         TXD
+25          AREF        AGND
+26          A3V3        A3V3
 27          PE2         Keypad PCINT
 28          PE3         Keypad PCINT
 29          PE4         Keypad PCINT
